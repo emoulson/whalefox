@@ -2,6 +2,7 @@
 !.gitignore
 
 # Environment files
+!env.example
 *.env
 
 # Firefox downloaded files
@@ -44,4 +45,3 @@ $RECYCLE.BIN/
 
 # Docker
 docker-compose.override.yml
-
