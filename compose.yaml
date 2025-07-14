@@ -6,9 +6,9 @@ services:
       - NET_ADMIN
     env_file: whalefox.env
     ports:
-      - 8888:8888/tcp # For Gluetun's built-in HTTP proxy (if needed)
-      - 8388:8388/tcp # For Gluetun's built-in Shadowsocks server
-      - 8388:8388/udp # For Gluetun's built-in Shadowsocks server
+      # - 8888:8888/tcp # For Gluetun's built-in HTTP proxy (if needed)
+      # - 8388:8388/tcp # For Gluetun's built-in Shadowsocks server
+      # - 8388:8388/udp # For Gluetun's built-in Shadowsocks server
       - 3210:3000 # Firefox
       #- 3001:3001 # Firefox VNC
     volumes:
